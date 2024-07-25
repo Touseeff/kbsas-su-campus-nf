@@ -1,0 +1,6 @@
+@include('back-end.layout.header')
+@include('back-end.layout.navbar')
+@include('back-end.layout.sidebar')
+@yield('main-section')
+@include('back-end.layout.footer')
+@include('back-end.layout.footer-script')
